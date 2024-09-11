@@ -32,7 +32,7 @@ export const Footer = ({ onCheck, status, disabled, lessonId }: Props) => {
         {status === 'wrong' && (
           <div className="text-rose-500 font-bold text-base lg:text-2xl flex items-center">
             <XCircle className="h-6 w-6 lg:h-10 lg:w-10 mr-4" />
-            Try Again.
+            Better Luck!
           </div>
         )}
         {status === 'completed' && (
@@ -53,7 +53,7 @@ export const Footer = ({ onCheck, status, disabled, lessonId }: Props) => {
         >
           {status === 'none' && 'Check'}
           {status === 'correct' && 'Next'}
-          {status === 'wrong' && 'Retry'}
+          {status === 'wrong' && 'Next'}
           {status === 'completed' && 'Continue'}
         </Button>
       </div>
