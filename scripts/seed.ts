@@ -18180,13 +18180,7 @@ const main = async () => {
       },
 
       // Challenge 595 options
-      {
-        challengeId: 595,
-        imageSrc: '',
-        correct: true,
-        text: 'The process of continuously analyzing network traffic to detect and respond to threats',
-        audioSrc: '',
-      },
+
       {
         challengeId: 595,
         imageSrc: '',
@@ -18199,6 +18193,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing access permissions',
+        audioSrc: '',
+      },
+      {
+        challengeId: 595,
+        imageSrc: '',
+        correct: true,
+        text: 'The process of continuously analyzing network traffic to detect and respond to threats',
         audioSrc: '',
       },
 
@@ -28192,6 +28193,14 @@ const main = async () => {
 
     await db.insert(schema.challengeOptions).values([
       // Challenge 921 options
+
+      {
+        challengeId: 921,
+        imageSrc: '',
+        correct: false,
+        text: 'A method for encrypting data using two different keys',
+        audioSrc: '',
+      },
       {
         challengeId: 921,
         imageSrc: '',
@@ -28203,18 +28212,19 @@ const main = async () => {
         challengeId: 921,
         imageSrc: '',
         correct: false,
-        text: 'A method for encrypting data using two different keys',
-        audioSrc: '',
-      },
-      {
-        challengeId: 921,
-        imageSrc: '',
-        correct: false,
         text: 'A tool for managing network traffic',
         audioSrc: '',
       },
 
       // Challenge 922 options
+
+      {
+        challengeId: 922,
+        imageSrc: '',
+        correct: false,
+        text: 'A method for encrypting data using a single key',
+        audioSrc: '',
+      },
       {
         challengeId: 922,
         imageSrc: '',
@@ -28226,18 +28236,19 @@ const main = async () => {
         challengeId: 922,
         imageSrc: '',
         correct: false,
-        text: 'A method for encrypting data using a single key',
-        audioSrc: '',
-      },
-      {
-        challengeId: 922,
-        imageSrc: '',
-        correct: false,
         text: 'A tool for managing user permissions',
         audioSrc: '',
       },
 
       // Challenge 923 options
+
+      {
+        challengeId: 923,
+        imageSrc: '',
+        correct: false,
+        text: 'A method for encrypting data using two different keys',
+        audioSrc: '',
+      },
       {
         challengeId: 923,
         imageSrc: '',
@@ -28249,25 +28260,12 @@ const main = async () => {
         challengeId: 923,
         imageSrc: '',
         correct: false,
-        text: 'A method for encrypting data using two different keys',
-        audioSrc: '',
-      },
-      {
-        challengeId: 923,
-        imageSrc: '',
-        correct: false,
         text: 'A tool for managing network traffic',
         audioSrc: '',
       },
 
       // Challenge 924 options
-      {
-        challengeId: 924,
-        imageSrc: '',
-        correct: true,
-        text: 'The process of identifying and assessing potential risks to an organization’s assets',
-        audioSrc: '',
-      },
+
       {
         challengeId: 924,
         imageSrc: '',
@@ -28282,15 +28280,16 @@ const main = async () => {
         text: 'A tool for managing user permissions',
         audioSrc: '',
       },
-
-      // Challenge 925 options
       {
-        challengeId: 925,
+        challengeId: 924,
         imageSrc: '',
         correct: true,
-        text: 'The process of managing and responding to security incidents and breaches',
+        text: 'The process of identifying and assessing potential risks to an organization’s assets',
         audioSrc: '',
       },
+
+      // Challenge 925 options
+
       {
         challengeId: 925,
         imageSrc: '',
@@ -28303,6 +28302,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing network traffic',
+        audioSrc: '',
+      },
+      {
+        challengeId: 925,
+        imageSrc: '',
+        correct: true,
+        text: 'The process of managing and responding to security incidents and breaches',
         audioSrc: '',
       },
 
@@ -28330,13 +28336,7 @@ const main = async () => {
       },
 
       // Challenge 927 options
-      {
-        challengeId: 927,
-        imageSrc: '',
-        correct: true,
-        text: 'The collection and analysis of information about potential and existing cyber threats',
-        audioSrc: '',
-      },
+
       {
         challengeId: 927,
         imageSrc: '',
@@ -28349,6 +28349,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing network traffic',
+        audioSrc: '',
+      },
+      {
+        challengeId: 927,
+        imageSrc: '',
+        correct: true,
+        text: 'The collection and analysis of information about potential and existing cyber threats',
         audioSrc: '',
       },
 
@@ -28399,13 +28406,7 @@ const main = async () => {
       },
 
       // Challenge 930 options
-      {
-        challengeId: 930,
-        imageSrc: '',
-        correct: true,
-        text: 'A set of rules and practices that define how an organization protects its information and technology assets',
-        audioSrc: '',
-      },
+
       {
         challengeId: 930,
         imageSrc: '',
@@ -28418,6 +28419,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing user permissions',
+        audioSrc: '',
+      },
+      {
+        challengeId: 930,
+        imageSrc: '',
+        correct: true,
+        text: 'A set of rules and practices that define how an organization protects its information and technology assets',
         audioSrc: '',
       },
     ]);
@@ -28498,13 +28506,7 @@ const main = async () => {
 
     await db.insert(schema.challengeOptions).values([
       // Challenge 931 options
-      {
-        challengeId: 931,
-        imageSrc: '',
-        correct: true,
-        text: 'A network security device that monitors and controls incoming and outgoing network traffic based on security rules',
-        audioSrc: '',
-      },
+
       {
         challengeId: 931,
         imageSrc: '',
@@ -28519,15 +28521,16 @@ const main = async () => {
         text: 'A tool for managing network traffic',
         audioSrc: '',
       },
-
-      // Challenge 932 options
       {
-        challengeId: 932,
+        challengeId: 931,
         imageSrc: '',
         correct: true,
-        text: 'A system that monitors and analyzes network traffic to detect and respond to potential threats',
+        text: 'A network security device that monitors and controls incoming and outgoing network traffic based on security rules',
         audioSrc: '',
       },
+
+      // Challenge 932 options
+
       {
         challengeId: 932,
         imageSrc: '',
@@ -28542,20 +28545,28 @@ const main = async () => {
         text: 'A tool for managing user permissions',
         audioSrc: '',
       },
-
-      // Challenge 933 options
       {
-        challengeId: 933,
+        challengeId: 932,
         imageSrc: '',
         correct: true,
-        text: 'The practice of dividing a network into multiple segments to improve security and performance',
+        text: 'A system that monitors and analyzes network traffic to detect and respond to potential threats',
         audioSrc: '',
       },
+
+      // Challenge 933 options
+
       {
         challengeId: 933,
         imageSrc: '',
         correct: false,
         text: 'A method for encrypting data using a single key',
+        audioSrc: '',
+      },
+      {
+        challengeId: 933,
+        imageSrc: '',
+        correct: true,
+        text: 'The practice of dividing a network into multiple segments to improve security and performance',
         audioSrc: '',
       },
       {
@@ -28590,13 +28601,7 @@ const main = async () => {
       },
 
       // Challenge 935 options
-      {
-        challengeId: 935,
-        imageSrc: '',
-        correct: true,
-        text: 'Software designed to protect endpoints such as computers and mobile devices from threats',
-        audioSrc: '',
-      },
+
       {
         challengeId: 935,
         imageSrc: '',
@@ -28609,6 +28614,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing network traffic',
+        audioSrc: '',
+      },
+      {
+        challengeId: 935,
+        imageSrc: '',
+        correct: true,
+        text: 'Software designed to protect endpoints such as computers and mobile devices from threats',
         audioSrc: '',
       },
 
@@ -28659,13 +28671,7 @@ const main = async () => {
       },
 
       // Challenge 938 options
-      {
-        challengeId: 938,
-        imageSrc: '',
-        correct: true,
-        text: 'The process of handling and managing security incidents to minimize damage and recover from breaches',
-        audioSrc: '',
-      },
+
       {
         challengeId: 938,
         imageSrc: '',
@@ -28678,6 +28684,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing user permissions',
+        audioSrc: '',
+      },
+      {
+        challengeId: 938,
+        imageSrc: '',
+        correct: true,
+        text: 'The process of handling and managing security incidents to minimize damage and recover from breaches',
         audioSrc: '',
       },
 
@@ -28804,13 +28817,7 @@ const main = async () => {
 
     await db.insert(schema.challengeOptions).values([
       // Challenge 941 options
-      {
-        challengeId: 941,
-        imageSrc: '',
-        correct: true,
-        text: 'The process of observing and analyzing network traffic to detect and respond to issues',
-        audioSrc: '',
-      },
+
       {
         challengeId: 941,
         imageSrc: '',
@@ -28825,15 +28832,16 @@ const main = async () => {
         text: 'A tool for managing user permissions',
         audioSrc: '',
       },
-
-      // Challenge 942 options
       {
-        challengeId: 942,
+        challengeId: 941,
         imageSrc: '',
         correct: true,
-        text: 'A system that monitors and prevents potential threats in network traffic',
+        text: 'The process of observing and analyzing network traffic to detect and respond to issues',
         audioSrc: '',
       },
+
+      // Challenge 942 options
+
       {
         challengeId: 942,
         imageSrc: '',
@@ -28848,15 +28856,16 @@ const main = async () => {
         text: 'A tool for managing network traffic',
         audioSrc: '',
       },
-
-      // Challenge 943 options
       {
-        challengeId: 943,
+        challengeId: 942,
         imageSrc: '',
         correct: true,
-        text: 'Malicious software designed to harm or exploit systems',
+        text: 'A system that monitors and prevents potential threats in network traffic',
         audioSrc: '',
       },
+
+      // Challenge 943 options
+
       {
         challengeId: 943,
         imageSrc: '',
@@ -28869,6 +28878,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing user permissions',
+        audioSrc: '',
+      },
+      {
+        challengeId: 943,
+        imageSrc: '',
+        correct: true,
+        text: 'Malicious software designed to harm or exploit systems',
         audioSrc: '',
       },
 
@@ -28919,13 +28935,7 @@ const main = async () => {
       },
 
       // Challenge 946 options
-      {
-        challengeId: 946,
-        imageSrc: '',
-        correct: true,
-        text: 'The process of evaluating potential risks to an organization and implementing strategies to manage them',
-        audioSrc: '',
-      },
+
       {
         challengeId: 946,
         imageSrc: '',
@@ -28938,6 +28948,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing network traffic',
+        audioSrc: '',
+      },
+      {
+        challengeId: 946,
+        imageSrc: '',
+        correct: true,
+        text: 'The process of evaluating potential risks to an organization and implementing strategies to manage them',
         audioSrc: '',
       },
 
@@ -29111,13 +29128,7 @@ const main = async () => {
 
     await db.insert(schema.challengeOptions).values([
       // Challenge 951 options
-      {
-        challengeId: 951,
-        imageSrc: '',
-        correct: true,
-        text: 'A strategy to prevent unauthorized access to or loss of data',
-        audioSrc: '',
-      },
+
       {
         challengeId: 951,
         imageSrc: '',
@@ -29132,15 +29143,16 @@ const main = async () => {
         text: 'A method for encrypting data using two different keys',
         audioSrc: '',
       },
-
-      // Challenge 952 options
       {
-        challengeId: 952,
+        challengeId: 951,
         imageSrc: '',
         correct: true,
-        text: 'A system that collects, analyzes, and manages security information and events',
+        text: 'A strategy to prevent unauthorized access to or loss of data',
         audioSrc: '',
       },
+
+      // Challenge 952 options
+
       {
         challengeId: 952,
         imageSrc: '',
@@ -29155,15 +29167,16 @@ const main = async () => {
         text: 'A method for encrypting data using a single key',
         audioSrc: '',
       },
-
-      // Challenge 953 options
       {
-        challengeId: 953,
+        challengeId: 952,
         imageSrc: '',
         correct: true,
-        text: 'A simulated cyber attack to test the security of a system',
+        text: 'A system that collects, analyzes, and manages security information and events',
         audioSrc: '',
       },
+
+      // Challenge 953 options
+
       {
         challengeId: 953,
         imageSrc: '',
@@ -29176,6 +29189,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing network traffic',
+        audioSrc: '',
+      },
+      {
+        challengeId: 953,
+        imageSrc: '',
+        correct: true,
+        text: 'A simulated cyber attack to test the security of a system',
         audioSrc: '',
       },
 
@@ -29203,18 +29223,19 @@ const main = async () => {
       },
 
       // Challenge 955 options
-      {
-        challengeId: 955,
-        imageSrc: '',
-        correct: true,
-        text: 'The process of identifying, assessing, and prioritizing risks followed by coordinated efforts to minimize or control their impact',
-        audioSrc: '',
-      },
+
       {
         challengeId: 955,
         imageSrc: '',
         correct: false,
         text: 'A method for encrypting data using two different keys',
+        audioSrc: '',
+      },
+      {
+        challengeId: 955,
+        imageSrc: '',
+        correct: true,
+        text: 'The process of identifying, assessing, and prioritizing risks followed by coordinated efforts to minimize or control their impact',
         audioSrc: '',
       },
       {
@@ -29417,6 +29438,14 @@ const main = async () => {
 
     await db.insert(schema.challengeOptions).values([
       // Challenge 961 options
+
+      {
+        challengeId: 961,
+        imageSrc: '',
+        correct: false,
+        text: 'A method for encrypting data using two different keys',
+        audioSrc: '',
+      },
       {
         challengeId: 961,
         imageSrc: '',
@@ -29428,25 +29457,12 @@ const main = async () => {
         challengeId: 961,
         imageSrc: '',
         correct: false,
-        text: 'A method for encrypting data using two different keys',
-        audioSrc: '',
-      },
-      {
-        challengeId: 961,
-        imageSrc: '',
-        correct: false,
         text: 'A tool for managing user permissions',
         audioSrc: '',
       },
 
       // Challenge 962 options
-      {
-        challengeId: 962,
-        imageSrc: '',
-        correct: true,
-        text: 'A security process that requires two forms of identification to access an account',
-        audioSrc: '',
-      },
+
       {
         challengeId: 962,
         imageSrc: '',
@@ -29459,6 +29475,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing network traffic',
+        audioSrc: '',
+      },
+      {
+        challengeId: 962,
+        imageSrc: '',
+        correct: true,
+        text: 'A security process that requires two forms of identification to access an account',
         audioSrc: '',
       },
 
@@ -29509,6 +29532,14 @@ const main = async () => {
       },
 
       // Challenge 965 options
+
+      {
+        challengeId: 965,
+        imageSrc: '',
+        correct: false,
+        text: 'A method for encrypting data using two different keys',
+        audioSrc: '',
+      },
       {
         challengeId: 965,
         imageSrc: '',
@@ -29520,25 +29551,12 @@ const main = async () => {
         challengeId: 965,
         imageSrc: '',
         correct: false,
-        text: 'A method for encrypting data using two different keys',
-        audioSrc: '',
-      },
-      {
-        challengeId: 965,
-        imageSrc: '',
-        correct: false,
         text: 'A tool for managing user permissions',
         audioSrc: '',
       },
 
       // Challenge 966 options
-      {
-        challengeId: 966,
-        imageSrc: '',
-        correct: true,
-        text: 'The protection of endpoints such as computers and mobile devices from threats',
-        audioSrc: '',
-      },
+
       {
         challengeId: 966,
         imageSrc: '',
@@ -29551,6 +29569,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing network traffic',
+        audioSrc: '',
+      },
+      {
+        challengeId: 966,
+        imageSrc: '',
+        correct: true,
+        text: 'The protection of endpoints such as computers and mobile devices from threats',
         audioSrc: '',
       },
 
@@ -29601,13 +29626,7 @@ const main = async () => {
       },
 
       // Challenge 969 options
-      {
-        challengeId: 969,
-        imageSrc: '',
-        correct: true,
-        text: 'The process of encoding data to prevent unauthorized access and ensure data privacy',
-        audioSrc: '',
-      },
+
       {
         challengeId: 969,
         imageSrc: '',
@@ -29620,6 +29639,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing user permissions',
+        audioSrc: '',
+      },
+      {
+        challengeId: 969,
+        imageSrc: '',
+        correct: true,
+        text: 'The process of encoding data to prevent unauthorized access and ensure data privacy',
         audioSrc: '',
       },
 
@@ -29723,18 +29749,19 @@ const main = async () => {
 
     await db.insert(schema.challengeOptions).values([
       // Challenge 971 options
-      {
-        challengeId: 971,
-        imageSrc: '',
-        correct: true,
-        text: 'The process of managing and applying software updates to fix vulnerabilities',
-        audioSrc: '',
-      },
+
       {
         challengeId: 971,
         imageSrc: '',
         correct: false,
         text: 'A tool for managing network traffic',
+        audioSrc: '',
+      },
+      {
+        challengeId: 971,
+        imageSrc: '',
+        correct: true,
+        text: 'The process of managing and applying software updates to fix vulnerabilities',
         audioSrc: '',
       },
       {
@@ -29757,14 +29784,14 @@ const main = async () => {
         challengeId: 972,
         imageSrc: '',
         correct: false,
-        text: 'A method for encrypting data using a single key',
+        text: 'A tool for managing network traffic',
         audioSrc: '',
       },
       {
         challengeId: 972,
         imageSrc: '',
         correct: false,
-        text: 'A tool for managing network traffic',
+        text: 'A method for encrypting data using a single key',
         audioSrc: '',
       },
 
@@ -29795,17 +29822,18 @@ const main = async () => {
       {
         challengeId: 974,
         imageSrc: '',
-        correct: true,
-        text: 'The process of proactively searching for threats in a network before they can cause harm',
+        correct: false,
+        text: 'A method for encrypting data using a single key',
         audioSrc: '',
       },
       {
         challengeId: 974,
         imageSrc: '',
-        correct: false,
-        text: 'A method for encrypting data using a single key',
+        correct: true,
+        text: 'The process of proactively searching for threats in a network before they can cause harm',
         audioSrc: '',
       },
+
       {
         challengeId: 974,
         imageSrc: '',
@@ -29838,6 +29866,14 @@ const main = async () => {
       },
 
       // Challenge 976 options
+
+      {
+        challengeId: 976,
+        imageSrc: '',
+        correct: false,
+        text: 'A tool for managing network traffic',
+        audioSrc: '',
+      },
       {
         challengeId: 976,
         imageSrc: '',
@@ -29852,22 +29888,9 @@ const main = async () => {
         text: 'A method for encrypting data using a single key',
         audioSrc: '',
       },
-      {
-        challengeId: 976,
-        imageSrc: '',
-        correct: false,
-        text: 'A tool for managing network traffic',
-        audioSrc: '',
-      },
 
       // Challenge 977 options
-      {
-        challengeId: 977,
-        imageSrc: '',
-        correct: true,
-        text: 'A centralized facility where security-related data is collected, monitored, and analyzed',
-        audioSrc: '',
-      },
+
       {
         challengeId: 977,
         imageSrc: '',
@@ -29880,6 +29903,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing user permissions',
+        audioSrc: '',
+      },
+      {
+        challengeId: 977,
+        imageSrc: '',
+        correct: true,
+        text: 'A centralized facility where security-related data is collected, monitored, and analyzed',
         audioSrc: '',
       },
 
@@ -29907,13 +29937,7 @@ const main = async () => {
       },
 
       // Challenge 979 options
-      {
-        challengeId: 979,
-        imageSrc: '',
-        correct: true,
-        text: 'The process of simulating attacks to identify and address vulnerabilities',
-        audioSrc: '',
-      },
+
       {
         challengeId: 979,
         imageSrc: '',
@@ -29926,6 +29950,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing user permissions',
+        audioSrc: '',
+      },
+      {
+        challengeId: 979,
+        imageSrc: '',
+        correct: true,
+        text: 'The process of simulating attacks to identify and address vulnerabilities',
         audioSrc: '',
       },
 
@@ -30029,18 +30060,19 @@ const main = async () => {
 
     await db.insert(schema.challengeOptions).values([
       // Challenge 981 options
-      {
-        challengeId: 981,
-        imageSrc: '',
-        correct: true,
-        text: 'The process of converting data into a code to prevent unauthorized access',
-        audioSrc: '',
-      },
+
       {
         challengeId: 981,
         imageSrc: '',
         correct: false,
         text: 'A tool for managing network traffic',
+        audioSrc: '',
+      },
+      {
+        challengeId: 981,
+        imageSrc: '',
+        correct: true,
+        text: 'The process of converting data into a code to prevent unauthorized access',
         audioSrc: '',
       },
       {
@@ -30059,13 +30091,7 @@ const main = async () => {
         text: 'A network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules',
         audioSrc: '',
       },
-      {
-        challengeId: 982,
-        imageSrc: '',
-        correct: false,
-        text: 'A method for encrypting data using a single key',
-        audioSrc: '',
-      },
+
       {
         challengeId: 982,
         imageSrc: '',
@@ -30073,20 +30099,28 @@ const main = async () => {
         text: 'A tool for managing user permissions',
         audioSrc: '',
       },
-
-      // Challenge 983 options
       {
-        challengeId: 983,
+        challengeId: 982,
         imageSrc: '',
-        correct: true,
-        text: 'A system that monitors network traffic for suspicious activity and potential threats',
+        correct: false,
+        text: 'A method for encrypting data using a single key',
         audioSrc: '',
       },
+
+      // Challenge 983 options
+
       {
         challengeId: 983,
         imageSrc: '',
         correct: false,
         text: 'A method for encrypting data using two different keys',
+        audioSrc: '',
+      },
+      {
+        challengeId: 983,
+        imageSrc: '',
+        correct: true,
+        text: 'A system that monitors network traffic for suspicious activity and potential threats',
         audioSrc: '',
       },
       {
@@ -30101,17 +30135,18 @@ const main = async () => {
       {
         challengeId: 984,
         imageSrc: '',
-        correct: true,
-        text: 'A systematic examination of a system’s security measures and controls',
+        correct: false,
+        text: 'A method for encrypting data using a single key',
         audioSrc: '',
       },
       {
         challengeId: 984,
         imageSrc: '',
-        correct: false,
-        text: 'A method for encrypting data using a single key',
+        correct: true,
+        text: 'A systematic examination of a system’s security measures and controls',
         audioSrc: '',
       },
+
       {
         challengeId: 984,
         imageSrc: '',
@@ -30167,18 +30202,19 @@ const main = async () => {
       },
 
       // Challenge 987 options
-      {
-        challengeId: 987,
-        imageSrc: '',
-        correct: true,
-        text: 'The collection and analysis of information about current and potential threats',
-        audioSrc: '',
-      },
+
       {
         challengeId: 987,
         imageSrc: '',
         correct: false,
         text: 'A method for encrypting data using two different keys',
+        audioSrc: '',
+      },
+      {
+        challengeId: 987,
+        imageSrc: '',
+        correct: true,
+        text: 'The collection and analysis of information about current and potential threats',
         audioSrc: '',
       },
       {
@@ -30236,18 +30272,19 @@ const main = async () => {
       },
 
       // Challenge 990 options
-      {
-        challengeId: 990,
-        imageSrc: '',
-        correct: true,
-        text: 'The measures and practices implemented to protect and secure network infrastructure',
-        audioSrc: '',
-      },
+
       {
         challengeId: 990,
         imageSrc: '',
         correct: false,
         text: 'A method for encrypting data using a single key',
+        audioSrc: '',
+      },
+      {
+        challengeId: 990,
+        imageSrc: '',
+        correct: true,
+        text: 'The measures and practices implemented to protect and secure network infrastructure',
         audioSrc: '',
       },
       {
@@ -30339,17 +30376,18 @@ const main = async () => {
       {
         challengeId: 991,
         imageSrc: '',
-        correct: true,
-        text: 'The process of identifying and evaluating security weaknesses in a system',
+        correct: false,
+        text: 'A method for encrypting data using a single key',
         audioSrc: '',
       },
       {
         challengeId: 991,
         imageSrc: '',
-        correct: false,
-        text: 'A method for encrypting data using a single key',
+        correct: true,
+        text: 'The process of identifying and evaluating security weaknesses in a system',
         audioSrc: '',
       },
+
       {
         challengeId: 991,
         imageSrc: '',
@@ -30405,13 +30443,7 @@ const main = async () => {
       },
 
       // Challenge 994 options
-      {
-        challengeId: 994,
-        imageSrc: '',
-        correct: true,
-        text: 'A system that aggregates and analyzes security event data from across an organization',
-        audioSrc: '',
-      },
+
       {
         challengeId: 994,
         imageSrc: '',
@@ -30426,20 +30458,28 @@ const main = async () => {
         text: 'A tool for managing user permissions',
         audioSrc: '',
       },
-
-      // Challenge 995 options
       {
-        challengeId: 995,
+        challengeId: 994,
         imageSrc: '',
         correct: true,
-        text: 'The process of identifying, managing, and mitigating security incidents',
+        text: 'A system that aggregates and analyzes security event data from across an organization',
         audioSrc: '',
       },
+
+      // Challenge 995 options
+
       {
         challengeId: 995,
         imageSrc: '',
         correct: false,
         text: 'A method for encrypting data using a single key',
+        audioSrc: '',
+      },
+      {
+        challengeId: 995,
+        imageSrc: '',
+        correct: true,
+        text: 'The process of identifying, managing, and mitigating security incidents',
         audioSrc: '',
       },
       {
@@ -30474,13 +30514,7 @@ const main = async () => {
       },
 
       // Challenge 997 options
-      {
-        challengeId: 997,
-        imageSrc: '',
-        correct: true,
-        text: 'Strategies and tools used to prevent unauthorized access to data',
-        audioSrc: '',
-      },
+
       {
         challengeId: 997,
         imageSrc: '',
@@ -30493,6 +30527,13 @@ const main = async () => {
         imageSrc: '',
         correct: false,
         text: 'A tool for managing user permissions',
+        audioSrc: '',
+      },
+      {
+        challengeId: 997,
+        imageSrc: '',
+        correct: true,
+        text: 'Strategies and tools used to prevent unauthorized access to data',
         audioSrc: '',
       },
 
@@ -30523,17 +30564,18 @@ const main = async () => {
       {
         challengeId: 999,
         imageSrc: '',
-        correct: true,
-        text: 'Mechanisms and processes used to control who can access information and resources',
+        correct: false,
+        text: 'A method for encrypting data using a single key',
         audioSrc: '',
       },
       {
         challengeId: 999,
         imageSrc: '',
-        correct: false,
-        text: 'A method for encrypting data using a single key',
+        correct: true,
+        text: 'Mechanisms and processes used to control who can access information and resources',
         audioSrc: '',
       },
+
       {
         challengeId: 999,
         imageSrc: '',

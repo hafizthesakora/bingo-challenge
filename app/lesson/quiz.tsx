@@ -59,6 +59,7 @@ export const Quiz = ({
     return initialPercentage === 100 ? 0 : initialPercentage;
   });
   const [challenges] = useState(initialLessonChallenges);
+  const [points, setPoints] = useState(0);
   const [activeIndex, setActiveIndex] = useState(() => {
     const uncompletedIndex = challenges.findIndex(
       (challenge) => !challenge.completed
@@ -68,10 +69,6 @@ export const Quiz = ({
 
   const [selectedOption, setSelectedOption] = useState<number>();
   const [status, setStatus] = useState<'correct' | 'wrong' | 'none'>('none');
-  const [points, setPoints] = useState(0);
-
-  const [sessionPoints, setSessionPoints] = useState(0); // Points for current session
-  const [totalPoints, setTotalPoints] = useState(0); // Total cumulative points
 
   const challenge = challenges[activeIndex];
   const options = challenge?.challengeOptions ?? [];
@@ -86,129 +83,89 @@ export const Quiz = ({
     setSelectedOption(id);
   };
 
-  // const onContinue = () => {
-  //   if (!selectedOption) return;
-
-  //   if (status === 'wrong') {
-  //     onNext();
-  //     setStatus('none');
-  //     setSelectedOption(undefined);
-  //     return;
-  //   }
-
-  //   if (status === 'correct') {
-  //     onNext();
-  //     setStatus('none');
-  //     setSelectedOption(undefined);
-  //     return;
-  //   }
-
-  //   const correctOption = options.find((option) => option.correct);
-
-  //   if (!correctOption) {
-  //     return;
-  //   }
-
-  //   if (correctOption.id === selectedOption) {
-  //     startTransition(() => {
-  //       upsertChallengeProgress(challenge.id)
-  //         .then((response) => {
-  //           if (response?.error === 'hearts') {
-  //             openHeartsModal();
-  //             return;
-  //           }
-  //           correctControls.play();
-  //           setStatus('correct');
-  //           setPercentage((prev) => prev + 100 / challenges.length);
-  //           setPoints((prev) => prev + 10);
-  //         })
-  //         .catch(() => toast.error('Something went wrong. Please try again!'));
-  //     });
-  //   } else {
-  //     startTransition(() => {
-  //       reduceHearts(challenge.id)
-  //         .then((response) => {
-  //           if (response?.error === 'hearts') {
-  //             openHeartsModal();
-  //             return;
-  //           }
-
-  //           incorrectControls.play();
-  //           setStatus('wrong');
-  //           setPercentage((prev) => prev + 100 / challenges.length);
-
-  //           const newHearts = Math.max(hearts - 1, 0);
-  //           setHearts(newHearts);
-
-  //           if (newHearts === 0) {
-  //             openHeartsModal();
-  //           }
-  //         })
-  //         .catch(() => toast.error('Something went wrong. Please try again.'));
-  //     });
-  //   }
-  // };
+  const addPoints = (amount: number) => {
+    setPoints((prevPoints) => prevPoints + amount);
+  };
 
   const onContinue = () => {
     if (!selectedOption) return;
 
-    if (status === 'wrong' || status === 'correct') {
+    if (status === 'wrong') {
       onNext();
       setStatus('none');
       setSelectedOption(undefined);
       return;
     }
 
+    if (status === 'correct') {
+      onNext();
+      setStatus('none');
+      setSelectedOption(undefined);
+      return;
+    }
     const correctOption = options.find((option) => option.correct);
-    if (!correctOption) return;
 
-    const isCorrect = correctOption.id === selectedOption;
+    if (!correctOption) {
+      return;
+    }
 
-    startTransition(() => {
-      const pointsToAdd = isCorrect ? 10 : 0;
-      const newSessionPoints = sessionPoints + pointsToAdd;
-      const newHearts = isCorrect ? hearts : Math.max(hearts - 1, 0);
-
-      console.log('Updating challenge progress with:', {
-        challengeId: challenge.id,
-        sessionPoints: newSessionPoints,
-        heartsRemaining: newHearts,
-      });
-
-      upsertChallengeProgress(challenge.id, pointsToAdd, newHearts)
-        .then((response) => {
-          console.log('Server response:', response);
-
-          if (response?.error === 'hearts') {
-            openHeartsModal();
-            return;
-          }
-
-          if (isCorrect) {
+    if (correctOption.id === selectedOption) {
+      addPoints(10);
+      const pointToAdd = 10;
+      startTransition(() => {
+        upsertChallengeProgress(challenge.id, pointToAdd)
+          .then((response) => {
+            if (response?.error === 'hearts') {
+              openHeartsModal();
+              return;
+            }
             correctControls.play();
             setStatus('correct');
-            setSessionPoints(newSessionPoints);
-          } else {
+            setPercentage((prev) => prev + 100 / challenges.length);
+
+            // This is a practise
+            if (initialPercentage === 100) {
+              setHearts((prev) => Math.min(prev + 1, 5));
+            }
+          })
+          .catch(() => toast.error('Something went wrong. Please try again!'));
+      });
+    } else {
+      startTransition(() => {
+        const pointToAdd = 0;
+        reduceHearts(challenge.id)
+          .then((response) => {
+            if (response?.error === 'hearts') {
+              openHeartsModal();
+              return;
+            }
+
             incorrectControls.play();
             setStatus('wrong');
-          }
 
-          setHearts(newHearts);
+            if (!response?.error) {
+              setHearts((prev) => Math.max(prev - 1, 0));
+            }
+          })
+          .catch(() => toast.error('Something went wrong. Please try again.'));
 
-          if (typeof response.newTotalPoints === 'number') {
-            setTotalPoints(response.newTotalPoints);
-          } else {
-            console.error('newTotalPoints is undefined in server response');
-          }
+        upsertChallengeProgress(challenge.id, pointToAdd)
+          .then((response) => {
+            if (response?.error === 'hearts') {
+              openHeartsModal();
+              return;
+            }
+            setStatus('wrong');
+            setPercentage((prev) => prev + 100 / challenges.length);
 
-          if (newHearts === 0) {
-            openHeartsModal();
-          }
-
-          setPercentage((prev) => prev + 100 / challenges.length);
-        })
-        .catch(() => toast.error('Something went wrong. Please try again!'));
-    });
+            // This is a practise
+            if (initialPercentage === 100) {
+              setHearts((prev) => Math.min(prev + 1, 5));
+            }
+          })
+          .catch(() => toast.error('Something went wrong. Please try again!'));
+      });
+    }
   };
 
   if (!challenge) {
@@ -241,7 +198,7 @@ export const Quiz = ({
             Great Job! <br /> You&apos;ve completed the lesson.
           </h1>
           <div className="flex items-center gap-x-4 w-full">
-            <ResultCard variant="points" value={sessionPoints} />
+            <ResultCard variant="points" value={points} />
             <ResultCard variant="hearts" value={hearts} />
           </div>
         </div>

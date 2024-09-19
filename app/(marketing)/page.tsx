@@ -28,11 +28,15 @@ export default function Home() {
           </ClerkLoading>
           <ClerkLoaded>
             <SignedOut>
-              <SignUpButton mode="modal" fallbackRedirectUrl="/learn">
+              <SignInButton
+                mode="modal"
+                fallbackRedirectUrl="/learn"
+                signUpFallbackRedirectUrl="/learn"
+              >
                 <Button size="lg" variant="secondary" className="w-full">
                   Get Started
                 </Button>
-              </SignUpButton>
+              </SignInButton>
               <SignInButton
                 mode="modal"
                 fallbackRedirectUrl="/learn"
