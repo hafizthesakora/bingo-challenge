@@ -22,6 +22,9 @@ export default function Home() {
           Play, Learn, Practise and Master Cybersecurity best practises with Eni
           Ghana Bingo
         </h1>
+        <h6 className="font-bold text-neutral-600">
+          (Designed & Built by Eni Ghana ICT Team)
+        </h6>
         <div className="flex flex-col items-center gap-y-3 max-w-[330px] w-full">
           <ClerkLoading>
             <Loader className="h-5 w-5 text-muted-foreground animate-spin" />

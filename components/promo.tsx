@@ -10,15 +10,15 @@ export const Promo = () => {
       <div className="space-y-2">
         <div className="flex items-center gap-x-2">
           <Image src="/unlimited.svg" alt="Pro" height={26} width={26} />
-          <h3 className="font-bold text-lg">Play more quests to get ahead.</h3>
+          <h3 className="font-bold text-lg">Get Amanoah to get ahead.</h3>
         </div>
         <p className="text-muted-foreground">
-          Get more hearts to keep playing!
+          Powered by the Eni Ghana ICT Team!
         </p>
       </div>
 
       <Button asChild variant="super" className="w-full" size="lg">
-        <Link href="/shop">Get Points to get ahead</Link>
+        <Link href="/shop">Stay in the game</Link>
       </Button>
     </div>
   );
