@@ -31,7 +31,7 @@ export const Items = ({ hearts, points, hasActiveSubscription }: Props) => {
         <Image src="/heart.svg" alt="Heart" height={60} width={60} />
         <div className="flex-1">
           <p className="text-neutral-700 text-base lg:text-xl font-bold">
-            Refill Amanoah
+            Refill Hearts
           </p>
         </div>
         <Button
