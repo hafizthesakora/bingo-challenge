@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎮 Eni Ghana Bingo - User Manual
 
-## Getting Started
+<div align="center">
+  <h3>Learn, Play, and Win with Eni Ghana Bingo!</h3>
+</div>
 
-First, run the development server:
+## 📋 Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Getting Started](#getting-started)
+- [How to Play](#how-to-play)
+- [Scoring System](#scoring-system)
+- [The Amanoah System](#the-amanoah-system)
+- [Practice Mode](#practice-mode)
+- [Store](#store)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Request your credentials from the Eni Ghana ICT Team
+2. Visit [Eni Ghana Bingo](https://enighana-bingo.vercel.app/leaderboard)
+3. Sign in with your provided credentials
+4. Select your preferred language
+5. Begin your learning adventure! 🎉
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🎯 How to Play
 
-## Learn More
+The game will guide you through each module systematically. Follow the indicated path to progress through the questions and challenges.
 
-To learn more about Next.js, take a look at the following resources:
+## 💯 Scoring System
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ✅ Correct Answer: +10 points
+- ❌ Wrong Answer: -1 Amanoah (heart)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 💖 The Amanoah System
 
-## Deploy on Vercel
+In our unique scoring system, we use "Amanoah" (hearts) to represent your game life. Each letter in AMANOAH represents a core value of our gaming experience:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+|
+Letter
+|
+Meaning
+|
+Description
+|
+|
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## |
+
+## |
+
+|
+|
+A
+|
+**
+A
+**
+nswering
+|
+The core activity of learning through questions
+|
+|
+M
+|
+**
+M
+**
+otivation
+|
+The drive to keep improving
+|
+|
+A
+|
+**
+A
+**
+chievement
+|
+Your progress and success
+|
+|
+N
+|
+k
+**
+N
+**
+owledge
+|
+The wisdom you gain
+|
+|
+O
+|
+**
+O
+**
+pportunities
+|
+Chances for growth and learning
+|
+|
+A
+|
+**
+A
+**
+ccuracy
+|
+Precision in your responses
+|
+|
+H
+|
+**
+H
+**
+earts
+|
+Your life force in the game
+|
+
+## 🔄 Practice Mode
+
+- Return to completed modules anytime for practice
+- Practice mode doesn't award points
+- Perfect for reinforcing knowledge!
+
+## 🏪 Store Features
+
+- Replenish your Amanoah (hearts)
+- Cost: 10 points per full heart refresh
+- Visit the store when you run low on hearts
+
+## 💡 Pro Tips
+
+- Use practice mode to build confidence
+- Manage your hearts wisely
+- Take your time with each question
+- Learn from incorrect answers
+
+---
+
+<div align="center">
+  <p>For technical support, please contact the Eni Ghana ICT Team</p>
+  <p>Made with ❤️ by Eni Ghana</p>
+</div>
+Last edited just now
