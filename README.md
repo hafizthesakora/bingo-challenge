@@ -2,7 +2,7 @@
   
   # 🎮 Eni Ghana Bingo
   
-  ![Eni Ghana Bingo Banner](assets/banner.png)
+  ![Eni Ghana Bingo Banner](public/enighana-bingo.png)
   
   [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://enighana-bingo.vercel.app/leaderboard)
   [![Visit Game](https://img.shields.io/badge/Play%20Now-Eni%20Ghana%20Bingo-blue.svg)](https://enighana-bingo.vercel.app/leaderboard)
@@ -17,7 +17,7 @@
 
 <div align="center">
   
-  ![Game Preview](assets/game-preview.png)
+  ![Game Preview](public/p-1.png)
   
 </div>
 
@@ -42,7 +42,7 @@
 ## ✨ Features
 
 <div align="center">
-  <img src="assets/features.png" alt="Game Features" width="600"/>
+  <img src="public/learn.svg" alt="Game Features" width="600"/>
 </div>
 
 - 🌍 Multi-language support
@@ -55,7 +55,7 @@
 ## 🚀 Getting Started
 
 <div align="center">
-  <img src="assets/getting-started.png" alt="Getting Started" width="400"/>
+  <img src="public/hero.svg" alt="Getting Started" width="400"/>
 </div>
 
 1. Request your credentials from the Eni Ghana ICT Team
@@ -67,7 +67,7 @@
 ## 🎯 How to Play
 
 <div align="center">
-  <img src="assets/gameplay.png" alt="Gameplay" width="500"/>
+  <img src="public/p-2.png" alt="Gameplay" width="500"/>
 </div>
 
 The game guides you through interactive modules where you:
