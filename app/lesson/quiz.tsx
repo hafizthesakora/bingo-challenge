@@ -275,6 +275,7 @@ import { useRouter } from 'next/navigation';
 import Confetti from 'react-confetti';
 import { useHeartsModal } from '@/store/use-hearts-modal';
 import { usePracticeModal } from '@/store/use-practice-modal';
+import usePreventQuizRefresh from './usePreventQuizRefresh';
 
 type Props = {
   initialPercentage: number;
@@ -442,6 +443,12 @@ export const Quiz = ({
       });
     }
   };
+
+  // Add this to determine if the quiz is active
+  const isQuizActive = Boolean(challenge && status === 'none');
+
+  // Add the hook with lessonId
+  usePreventQuizRefresh(isQuizActive, lessonId);
 
   if (!challenge) {
     return (
