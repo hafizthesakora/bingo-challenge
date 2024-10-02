@@ -138,7 +138,7 @@ Our unique Amanoah system represents your game life:
     <img src="public/mascot_bad.svg" width="400" /> 
   </p>
   <p float="left">
-    <img src="public/mascot_sad.png" width="400" />
+    <img src="public/it.svg" width="400" />
     <img src="public/gh.svg" width="400" />
   </p>
 </div>
