@@ -91,7 +91,7 @@ The game guides you through interactive modules where you:
 ## 💖 The Amanoah System
 
 <div align="center">
-  <img src="assets/amanoah.png" alt="Amanoah System" width="450"/>
+  <img src="public/heart.svg" alt="Amanoah System" width="450"/>
 </div>
 
 Our unique Amanoah system represents your game life:
@@ -113,17 +113,17 @@ Our unique Amanoah system represents your game life:
 ## 🔄 Practice Mode
 
 <div align="center">
-  <img src="assets/practice-mode.png" alt="Practice Mode" width="400"/>
+  <img src="public/mascot.svg" alt="Practice Mode" width="400"/>
 </div>
 
 - 🔁 Return to completed modules anytime
 - 📝 Practice without point pressure
 - 📚 Perfect for learning and review
 
-## 🏪 Store
+## 🏪 Shop
 
 <div align="center">
-  <img src="assets/store.png" alt="Store" width="450"/>
+  <img src="public/shop.svg" alt="Store" width="450"/>
 </div>
 
 - 💝 Replenish your Amanoah (hearts)
@@ -134,19 +134,19 @@ Our unique Amanoah system represents your game life:
 
 <div align="center">
   <p float="left">
-    <img src="assets/screenshot1.png" width="400" />
-    <img src="assets/screenshot2.png" width="400" /> 
+    <img src="public/zombie.svg" width="400" />
+    <img src="public/mascot_bad.svg" width="400" /> 
   </p>
   <p float="left">
-    <img src="assets/screenshot3.png" width="400" />
-    <img src="assets/screenshot4.png" width="400" />
+    <img src="public/mascot_sad.png" width="400" />
+    <img src="public/gh.svg" width="400" />
   </p>
 </div>
 
 ## 💡 Pro Tips
 
 <div align="center">
-  <img src="assets/pro-tips.png" alt="Pro Tips" width="350"/>
+  <img src="public/quests.svg" alt="Pro Tips" width="350"/>
 </div>
 
 - 🎯 Use practice mode to build confidence
@@ -164,12 +164,12 @@ Our unique Amanoah system represents your game life:
   
   <br/>
   
-  [![Contact Support](https://img.shields.io/badge/Contact-Support-blue.svg)](mailto:support@enighana.com)
+  [![Contact Support](https://img.shields.io/badge/Contact-Support-blue.svg)](mailto:hafiz.toyyib@external.eni.com)
   
   <br/>
   
   <p>
-    <strong>Made with ❤️ by Eni Ghana</strong>
+    <strong>Made with ❤️ by Eni Ghana ICT</strong>
   </p>
   
 </div>
